@@ -34,9 +34,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
+/* Selecciona el primer elemento <span> dentro de un elemento con la clase "time". */
 .time span:nth-child(1) {
     width: 180px;
     height: 50px;
@@ -48,6 +48,7 @@ h2 {
     text-transform: uppercase;
 }
 
+/*  Selecciona el primer elemento <span> dentro de un segundo elemento con la clase "time" */
 .time:nth-of-type(2) span:nth-child(1) {
     background-color: #6fb40a;
 }
